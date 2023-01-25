@@ -6,6 +6,7 @@
 package primos;
 
 import interfaz.VentanaPrincipal;
+import logica.ValidarPrimo;
 /**
  *
  * @author Jp
@@ -21,6 +22,7 @@ public class Primos {
         VentanaPrincipal v = new VentanaPrincipal();
         v.setVisible(true);
         
+       
     }
     
 }
