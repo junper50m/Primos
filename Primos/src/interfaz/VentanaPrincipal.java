@@ -85,6 +85,18 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
 
+        ValidarPrimo vp = new ValidarPrimo();
+        
+         
+        
+        for(int i = 30 ; i > 1 ; i--){
+            System.out.println("Numero: "+i+ " - "+vp.Primo(i));
+            if(vp.Primo(i)){
+                txtSalida.append("\n - "+i);
+            }
+        }
+        
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
